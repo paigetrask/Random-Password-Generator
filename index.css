@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 550px;
+    background: #ECFDF5;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid #D5D4D8;
+    padding-bottom: 35px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+p {
+    color: #6B7280;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+#green {
+    color: #10B981;
+}
+
+#btn-container {
+    display: flex;
+    
+}
+
+button {
+    width: 223px;
+    height: 42px;
+    margin-top: 40px;
+    margin-right: 15px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+#bolt {
+    width: 14px;
+    height: 15px;
+    padding-right: 15px;
+}
+
+form {
+    margin-top: 40px;
+    color: #6B7280;
+    display: flex;
+    align-items: flex-end;
+}
+
+#input {
+    width: 40px;
+    height: 20px;
+    color: #6B7280;
+    text-align: right;
+    border-radius: 6px;
+    border: solid 1px #6B7280;
+    margin-left: 10px;
+    padding-right: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+#enter-value {
+    color: #E11D48;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    float: right;
+}
+
+#container {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.pw-box {
+    width: 211px;
+    height: 39px;  
+    background: #273549;
+    border-radius: 6px; 
+    margin-right: 24px;
+    background-image: url("images/icon-dots.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pw-box img {
+    width: 20px;
+    height: 5px;
+    display: block;
+    margin: auto;
+    padding-top: 17px;
+}
+
+.pass-style {
+    color: #5DEF92;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5px;
+}
